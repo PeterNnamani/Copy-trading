@@ -19,6 +19,7 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <button id="openModalBtn" class="subscribe-btn">Subscribe to Our Newsletter</button>
   </header>
 
   <!-- About Section -->
@@ -70,6 +71,26 @@
     <h2>Contact Us</h2>
     <p>Have questions? Reach out to us via email at <a href="mailto:support@copytrading.com">support@copytrading.com</a> or follow us on <a href="#">Twitter</a>.</p>
   </section>
+
+  <!-- Modal -->
+  <div id="newsletterModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get the latest updates and tips directly to your inbox!</p>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Aftermath Content -->
+  <div id="aftermath" class="aftermath" style="display: none;">
+    <h3>Thank You for Subscribing!</h3>
+    <p>You will receive the latest updates and trading tips in your inbox. Stay tuned!</p>
+  </div>
 
   <footer>
     <p>&copy; 2024 Your Copy Trading Website</p>
